@@ -1,0 +1,41 @@
+{
+	// General editor related stuff
+	"atomKeymap.promptV3Features": true,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"workbench.colorTheme": "Ayu Mirage Bordered",
+	"workbench.productIconTheme": "fluent-icons",
+
+	// Fonts, font size etc.
+	"editor.fontSize": 20,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Consolas, 'Courier New', monospace",
+	"window.zoomLevel": 0,
+
+	// Cursor
+	"editor.cursorStyle": "line",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorWidth": 3,
+
+	// Smoothness
+	"editor.smoothScrolling": true,
+	"editor.cursorSmoothCaretAnimation": true,
+
+	// Highlight brackets, whitespaces etc.
+	"editor.renderWhitespace": "all",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.semanticHighlighting.enabled": true,
+	"editor.guides.bracketPairsHorizontal": "active",
+
+	// Code style
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+
+	// Prettier
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4
+}
