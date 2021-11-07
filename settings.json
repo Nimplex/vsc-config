@@ -3,7 +3,7 @@
 	"atomKeymap.promptV3Features": true,
 	"editor.formatOnSave": true,
 	"editor.minimap.enabled": false,
-	"workbench.colorTheme": "Ayu Mirage Bordered",
+	"workbench.colorTheme": "Noctis Minimus",
 	"workbench.productIconTheme": "fluent-icons",
 
 	// Fonts, font size etc.
@@ -11,6 +11,7 @@
 	"editor.fontLigatures": true,
 	"editor.fontFamily": "Consolas, 'Courier New', monospace",
 	"window.zoomLevel": 0,
+	"terminal.integrated.fontSize": 20,
 
 	// Cursor
 	"editor.cursorStyle": "line",
