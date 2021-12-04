@@ -3,15 +3,29 @@
 	"atomKeymap.promptV3Features": true,
 	"editor.formatOnSave": true,
 	"editor.minimap.enabled": false,
+	"update.showReleaseNotes": false,
+	"window.openFilesInNewWindow": "on",
+	"workbench.view.alwaysShowHeaderActions": true,
+	"workbench.enableExperiments": false,
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"workbench.startupEditor": "none",
 	"workbench.colorTheme": "Noctis Minimus",
-	"workbench.productIconTheme": "fluent-icons",
+	"explorer.confirmDelete": false,
+
+	// diifEditor
+	"diffEditor.codeLens": true,
+	"diffEditor.wordWrap": "on",
+
+	// Disable telemetry
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"telemetry.telemetryLevel": "off",
+	"npm.fetchOnlinePackageInfo": false,
 
 	// Fonts, font size etc.
 	"editor.fontSize": 20,
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "Consolas, 'Courier New', monospace",
-	"window.zoomLevel": 0,
-	"terminal.integrated.fontSize": 20,
+	"editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
 
 	// Cursor
 	"editor.cursorStyle": "line",
@@ -38,5 +52,82 @@
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"prettier.singleQuote": true,
-	"prettier.tabWidth": 4
+	"prettier.tabWidth": 4,
+
+	// Terminal
+	"terminal.explorerKind": "external",
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.fontSize": 16,
+
+	// Bracket pair colorizer config
+	"bracket-pair-colorizer-2.showBracketsInRuler": true,
+	"bracket-pair-colorizer-2.showBracketsInGutter": true,
+	"bracket-pair-colorizer-2.scopeLineCSS": [
+		"borderStyle : solid",
+		"borderWidth : 2px",
+		"borderColor : {color}",
+		"opacity: 0.99"
+	],
+	"bracket-pair-colorizer-2.colors": [
+		"Gold",
+		"Orchid",
+		"LightSkyBlue"
+	],
+
+	// Better comments config
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+
+	// Window zoom level
+	"window.zoomLevel": -1,
+
+	// CPP settings
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
 }
